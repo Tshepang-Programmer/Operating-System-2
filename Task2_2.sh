@@ -25,7 +25,7 @@ then
 
 echo "Creating lab directory"
 sleep 4
-mkdir /var/www/html/labs html
+sudo mkdir /var/www/html/labs html
 
 
 echo "Changing user ownership"
