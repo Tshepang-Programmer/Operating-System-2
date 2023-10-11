@@ -30,12 +30,12 @@ sudo mkdir /var/www/html/labs html
 
 echo "Changing user ownership"
 sleep 4
-chown $USER:root /var/www/html/labs
+sudo chown $USER:root /var/www/html/labs
 
 echo "Creating symbolic link to html"
 sleep 4
 
-ln -s /var/www/html/labs html
+sudo ln -s /var/www/html/labs html
 
 echo "Change working  directory"
 sleep 4
