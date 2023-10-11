@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-sudo apt-get udate
+sudo apt-get update
 sudo apt-get -y install nginx
 systemctl is active nginx
 sudo systemctl start nginx
