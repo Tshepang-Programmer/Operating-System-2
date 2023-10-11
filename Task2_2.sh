@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+# TMD Letssoalo 218575912 & D Mosito 222516860
+
 echo "Updating"
 
 sudo apt-get update
@@ -9,13 +11,16 @@ sudo apt-get -y install nginx
 sleep 1
 echo "Checking Status" 
 
-systemctl is active nginx
+systemctl is-active nginx
 sleep 1
 
 echo "Starting NGINX"
 sudo systemctl start nginx
 
-if (systemctl is-active NGINX)
+systemctl is-active nginx
+sleep 1
+
+if (systemctl is-active nginx)
 then 
 
 echo "Creating lab directory"
