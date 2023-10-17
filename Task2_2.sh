@@ -53,3 +53,4 @@ nano index.html
 else 
 echo "Error NGINX is not active"
 exit 1
+fi
