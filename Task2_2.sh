@@ -43,7 +43,7 @@ cd html
 
 echo "Creating html file"
 sleep 4
-touch index.html
+sudo touch index.html
 
 echo "Opening index"
 
