@@ -1,0 +1,28 @@
+TASK 3
+Step 1 : Ebter your Azure VM
+step 2 : sudo apt-get update
+step 3 : sudo apt-get install -y mysql-server
+steo 4 : sudo mysql (This starts mysql)
+step 5 :
+
+SELECT plugin FROM mysql.user WHERE User = 'root';
+UPDATE ysql.user SET plugn = 'mysql_native_password' WHERE User = 'root';
+SELECT plugin FROM mysql.user WHERE User = 'root';
+FLUSH PRIVILEGES;
+ALTER USER 'root'@'localhost' IDENTIFED BY 'new_password';
+(exit mysql)
+mysql -u root -p
+
+TASK 4
+
+CREATE DATABASE student_record;
+SHOW DATABASES;
+USE student_record;
+CREATE TABLE students (student_id varchar(12), surname varchar(20), age varchar(3), gender varchar(1), course varchar(100) );
+SHOW tables;
+INSERT INTO students (student_id , surname , age , gender , course) VALUES ('22234567', 'abcdef', '20', 'm', 'electroncs');
+SELECT * FROM students
+SELECT * FROM students where student_id = '22234567' ;
+  
+
+
