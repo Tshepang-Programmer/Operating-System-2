@@ -9,7 +9,7 @@ SELECT plugin FROM mysql.user WHERE User = 'root';
 UPDATE ysql.user SET plugn = 'mysql_native_password' WHERE User = 'root';
 SELECT plugin FROM mysql.user WHERE User = 'root';
 FLUSH PRIVILEGES;
-ALTER USER 'root'@'localhost' IDENTIFED BY 'new_password';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
 (exit mysql)
 mysql -u root -p
 
