@@ -1,5 +1,5 @@
 TASK 3
-Step 1 : Ebter your Azure VM
+Step 1 : Enter your Azure VM
 step 2 : sudo apt-get update
 step 3 : sudo apt-get install -y mysql-server
 steo 4 : sudo mysql (This starts mysql)
