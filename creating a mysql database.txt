@@ -27,9 +27,9 @@ SELECT plugin FROM mysql.user WHERE User = 'root';
 
 TASK 4
 
-CREATE DATABASE studentManagement;
+CREATE DATABASE studentsManagement;
 SHOW DATABASES;
-USE studentManagement;
+USE studentsManagement;
 CREATE TABLE studentInfo (student_id varchar(12), name varchar(20), age varchar(3), gender varchar(1), course varchar(100) );
 SHOW tables;
 INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('22234567', 'abcdef', '20', 'm', 'electroncs');
