@@ -3,7 +3,7 @@ Step 1 : Enter your Azure VM
 step 2 : sudo apt-get update
 step 3 : sudo apt-get install -y mysql-server
 step 4 : sudo systemctl start mysql (Starts mysql but does not open it )
-step 5 : sudo paaswd (creates a password)
+step 5 : sudo passwd (creates a password)
 step 6: su - (enter your that you have created this will take you to your root directory )
 step 7:mysql_secure_installation --user root
 step 8: All of them are yes
@@ -11,7 +11,7 @@ step 8: All of them are yes
 Enter your sql:
  mysql -u root (now you will be in mysql)
 Now that your in ...
-step 2: CREATE USER 'tshepang'@'localhost' IDENTIFIED BY 'Operating_systems1';
+step 2: CREATE USER 'tshepang'@'localhost' IDENTIFIED BY 'Operating_systems2';
                     (the username )                     (Password)
 step 3:FLUSH PRIVILEGES;
 step 4:ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
@@ -27,14 +27,14 @@ SELECT plugin FROM mysql.user WHERE User = 'root';
 
 TASK 4
 
-CREATE DATABASE student_record;
+CREATE DATABASE studentManagement;
 SHOW DATABASES;
-USE student_record;
-CREATE TABLE students (student_id varchar(12), surname varchar(20), age varchar(3), gender varchar(1), course varchar(100) );
+USE studentManagement;
+CREATE TABLE studentInfo (student_id varchar(12), name varchar(20), age varchar(3), gender varchar(1), course varchar(100) );
 SHOW tables;
-INSERT INTO students (student_id , surname , age , gender , course) VALUES ('22234567', 'abcdef', '20', 'm', 'electroncs');
-SELECT * FROM students
-SELECT * FROM students where student_id = '22234567' ;
+INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('22234567', 'abcdef', '20', 'm', 'electroncs');
+SELECT * FROM studentInfo
+SELECT * FROM studentInfo where student_id = '22234567' ;
   
 
 
