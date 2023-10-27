@@ -34,3 +34,4 @@ sudo apt-get -y install nginx
 sleep 4
 fi
 echo "Nginx already installed"
+
