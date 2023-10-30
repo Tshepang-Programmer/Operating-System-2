@@ -23,10 +23,19 @@ touch websrv.sh
 chmod u+x websrv.sh
 
 nano websrv.sh
-echo "Checking if nginx is installed"
+
+#!/bin/bash 
+
+# TMD Letssoalo 218575912 & D Mosito 222516860
+
+echo "Updating"
+
+sudo apt-get update
 sleep 4
 
-#!/bin/bash
+
+echo "Checking if nginx is installed"
+sleep 4
 
 if ! which nginx > /dev/null 2>&1; then
   echo "Nginx not installed"
@@ -35,7 +44,7 @@ echo "Installing NGINX"
 sudo apt-get -y install nginx
 sleep 4
 fi
-echo "Nginx already installed"
+echo "Nginx installed"
 echo "Checking Status" 
 
 systemctl is-active nginx
