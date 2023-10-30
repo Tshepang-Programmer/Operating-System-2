@@ -86,6 +86,42 @@ echo "Creating html file"
 sleep 4
 sudo touch index.html
 
+echo "Adding student information to html file"
+
+echo "<!DOCTYPE html>" >> index.html
+echo "<html lang="en">" >> index.html
+echo "<head>" >> index.html
+echo "  <meta charset="UTF-8">" >> index.html
+echo "    <meta name="viewport" content="width=device-width, initial-scale=1.0">" >> index.html
+echo "    <title>Document</title>" >> index.html
+echo "</head>" >> index.html
+echo "<body>" >> index.html
+echo "    <h1> STUDENT INFORMATION PAGE </h1> " >> index.html
+echo "     <P>" >> index.html
+echo "                    Student 1" >> index.html
+echo "        Initials:  TMD" >> index.html
+echo "        Names: Tshepang Mugova David Letsoalo" >> index.html
+echo "        Student no: 218575912" >> index.html
+echo "        Course: Electrical Engineering : Computer Systems" >> index.html
+echo "  " >> index.html
+echo "  " >> index.html
+echo "                   Student 2" >> index.html
+echo "        Initials:  D" >> index.html
+echo "        Names: Dimpho Mosito" >> index.html
+echo "        Student no: 222516860" >> index.html
+echo "        Course: Electrical Engineering : Computer Systems" >> index.html
+echo "  " >> index.html
+echo "    </P>" >> index.html
+echo "</body>" >> index.html
+echo "</html>" >> index.html
+
+echo "Information has been added to index.html"
+sleep 
+echo "Viewing index.html"
+sleep 4
+
+cat index.html
+
 
 else 
 echo "Error NGINX is not active"
