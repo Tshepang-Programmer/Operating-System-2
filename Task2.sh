@@ -41,7 +41,7 @@ sleep 4
 if ! which nginx > /dev/null 2>&1; 
 then
   echo "Nginx not installed"
-
+sleep 2
 echo "Installing NGINX"
 sleep 4
 sudo apt-get -y install nginx
@@ -86,10 +86,6 @@ echo "Creating html file"
 sleep 4
 sudo touch index.html
 
-#echo "Opening index"
-
-#sleep 3
-#nano index.html
 
 else 
 echo "Error NGINX is not active"
