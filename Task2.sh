@@ -32,19 +32,24 @@ echo "Updating"
 
 sudo apt-get update
 sleep 4
+clear
 
 
 echo "Checking if nginx is installed"
 sleep 4
 
-if ! which nginx > /dev/null 2>&1; then
+if ! which nginx > /dev/null 2>&1; 
+then
   echo "Nginx not installed"
 
 echo "Installing NGINX"
-sudo apt-get -y install nginx
 sleep 4
+sudo apt-get -y install nginx
+clear
 fi
+sleep 4
 echo "Nginx installed"
+sleep 2
 echo "Checking Status" 
 
 systemctl is-active nginx
