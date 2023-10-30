@@ -1,14 +1,3 @@
-echo "<html><body><h1>Hello world</h1></body><html>" >> index.html
-
-cd 
-
-touch websrv.sh
-chmod u+x websrv.sh
-
-nano websrv.sh
-
-#!/bin/bash 
-
 # TMD Letssoalo 218575912 & D Mosito 222516860
 
 echo "Updating"
