@@ -63,6 +63,7 @@ sudo touch index.html
 
  echo "Opening index.html"
 
+sleep 4
  sudo nano index.html
 
 
