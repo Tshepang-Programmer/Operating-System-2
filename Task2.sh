@@ -53,9 +53,7 @@ sudo ln -s /var/www/html/labs html
 
 echo "Changing  working  directory"
 sleep 4
-cd 
-cd html
-cd labs
+cd /html/labs
 
 echo "Creating html file"
 sleep 2
