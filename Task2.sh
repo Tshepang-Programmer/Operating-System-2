@@ -66,7 +66,8 @@ sudo touch index.html
 sleep 4
  sudo nano index.html
 
-
+sleep 4 
+cd /home/azureuser/html/labs
 else 
 echo "Error NGINX is not active"
 exit 1
