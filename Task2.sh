@@ -53,13 +53,13 @@ sudo ln -s /var/www/html/labs html
 
 echo "Changing  working  directory"
 sleep 4
-cd /html/labs
+cd /home/azureuser/html/labs
 
 echo "Creating html file"
 sleep 2
 sudo touch index.html
 
- sleep 
+ sleep 4
 
  echo "Opening index.html"
 
