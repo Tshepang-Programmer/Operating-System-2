@@ -31,3 +31,5 @@ echo "Information has been added to index.html"
 sleep 4
 echo "Viewing index.html"
 sleep 4
+
+cat index.html
