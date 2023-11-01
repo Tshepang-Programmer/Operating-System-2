@@ -33,6 +33,10 @@ USE studentsManagement;
 CREATE TABLE studentInfo (student_id varchar(12), name varchar(20), age varchar(3), gender varchar(1), course varchar(100) );
 SHOW tables;
 INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('22234567', 'abcdef', '20', 'm', 'electroncs');
+INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('223456433', 'theone', '19', 'm', 'CIVIL');
+INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('213455334', 'cvffvfsdv', '24', 'm', 'Electrical');
+INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('232455665', 'hghfgdhd', '21', 'f', 'Electrical');
+INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('214537881', 'kilometer', '26', 'f', 'industrial');
 SELECT * FROM studentInfo
 SELECT * FROM studentInfo where student_id = '22234567' ;
   
