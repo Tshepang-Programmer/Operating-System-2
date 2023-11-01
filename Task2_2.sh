@@ -45,10 +45,9 @@ echo "Creating html file"
 sleep 4
 sudo touch index.html
 
-#echo "Opening index"
-
-#sleep 3
-#nano index.html
+echo "Opening index"
+sleep 3
+nano index.html
 
 else 
 echo "Error NGINX is not active"
