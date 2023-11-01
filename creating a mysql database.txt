@@ -37,7 +37,7 @@ INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('223
 INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('213455334', 'cvffvfsdv', '24', 'm', 'Electrical');
 INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('232455665', 'hghfgdhd', '21', 'f', 'Electrical');
 INSERT INTO studentInfo (student_id , name , age , gender , course) VALUES ('214537881', 'kilometer', '26', 'f', 'industrial');
-SELECT * FROM studentInfo
+SELECT * FROM studentInfo;
 SELECT * FROM studentInfo where student_id = '22234567' ;
   
 
